@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
 FROM python:3
 ENV PYTHONUNBUFFERED=1
-ENV PG_PASS=YWE5Yk12az9IP01iUVk5
-ENV PG_NAME=c3NwX3Rtel91c3I=
+ENV PG_PASS=some_pass
+ENV PG_NAME=some_name
 ENV REMOTE_NAME=
 ENV REMOTE_PASS=
 WORKDIR /code
