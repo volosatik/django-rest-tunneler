@@ -9,5 +9,5 @@ WORKDIR /code
 COPY requirements.txt /code/
 # COPY ./packages/ /code/packages
 # RUN python3 -m pip install --no-index --find-links=/code/packages/ -r requirements.txt
-RUN pip3 install --proxy=http://msk-proxy.megafon.ru:3128 -r requirements.txt
+RUN pip3 install --proxy=some_proxy -r requirements.txt
 COPY . /code/
